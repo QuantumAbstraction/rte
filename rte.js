@@ -26,7 +26,7 @@ RTE_DefaultConfig.toolbar = "default"; // default, basic or full. Auto configure
 RTE_DefaultConfig.toolbarMobile = "mobile"; // The toolbar set on mobile devices.
 RTE_DefaultConfig.maxWidthForMobile = 992; // When the screen (browser window) gets smaller than 992, editor should have mobile toolbar.
 
-RTE_DefaultConfig.urlType = "default"; //default(do nothing),absolute(all change to http(s)://...),relative(all change to /...)
+RTE_DefaultConfig.urlType = "absolute"; //default(do nothing),absolute(all change to http(s)://...),relative(all change to /...)
 
 RTE_DefaultConfig.enableDragDrop = true; // Enables or disables drag-and-drop support for the editor.
 RTE_DefaultConfig.enableObjectResizing = true; //Specifies whether or not to allow the users resize an object winthin the RichTextEditor.
